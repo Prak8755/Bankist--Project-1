@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+body{
+    background-color: #f3f3f3;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 10px;
+    gap:50px;
+}
+.logoImage{
+    height:60px;
+    width:60px;
+    margin-top: 20px;
+}
+.loginDetails input{
+    padding:10px;
+    border-radius: 10px;
+    margin:15px;
+    background: #ffffff;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btnLogin{
+    padding:10px 20px;
+    margin-left:20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dateBalance{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap:250px;
+}
+.balance h1{
+    font-size: 50px;
+}
+.mainSection{
+    opacity:0;
+}
+.current_balance{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top:40px;
+    gap:350px;
+}
+.balance h1{
+    font-size: 25px;
+}
+.balance p{
+    font-size: 15px;
+}
+.balance_show{
+    font-size: 20px;
+}
+.app{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+    gap:40px;
+}
+.movements{
+    height:500px;
+    width:500px;
+    background-color: white;
+    overflow:scroll;
+    border-radius:10px;
+}
+.movements_Value{
+    height:15%;
+    width:100%;
+    background: #68c775;
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    font-family:'Times New Roman', Times, serif ;
+}
+.movements_Value{
+    height:15%;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    font-family:'Times New Roman', Times, serif ;
+    
+}
+.movements_Value p
+{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.deposit{
+    background: #6dca72;
+    
+}
+.dateSection{
+    display: flex;
+    gap:50px;
+}
+.withdrawl{
+    background: #f4455d;
+    border: #f3f3f3;
+}
+
+.transfer{
+    height:30%;
+    width:500px;
+    background:#ffbe00;
+    text-align:center;
+    border-radius:10px;
+}
+.transfer h1{
+    margin-top:20px;
+}
+.transfer form{
+    margin-top:20px;
+}
+.money_section{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.backgroundGreen{
+    background:#6dca72 ;
+}
+.backgroundRed{
+    background: #f4455d;
+}
+
+.form__btn{
+    margin-top:10px;
+    cursor:pointer
+}
+.main{
+    display:flex;
+   gap:100px;
+   margin-left:80px;
+   font-size:20px;
+}
+
+.form__input{
+    border-radius:10px;
+    padding:8px 8px;
+    margin-left:20px;
+    text-align:center;
+}
+.form__btn{
+    padding:8px 12px;
+    border-radius:10px;
+    margin-left:20px;
+}
+.summary{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+.summaryFirst{
+    display: flex;
+   margin-left:25px;
+   gap:60px;
+}
+.summaryFirst{
+    font-size:15px;
+}
+.summarySecond{
+    font-size:20px;
+    margin-right:50px;
+}
+.showTimer{
+    font-size: 15px;
+}
+.balanceIn h1{
+    color:#68c775
+}
+.balanceOut h1{
+    color:#f4455d;
+}
+.btn--sort{
+    background:transparent;
+    border:none;
+    cursor:pointer;
+}

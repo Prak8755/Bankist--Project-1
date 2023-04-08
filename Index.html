@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankist </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navBar">
+        <div class="welcomeHeading">
+            <h1 class="labelWelcome">Log in to get started</h1>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo"  class="logoImage">
+        </div>
+        <div class="loginSection">
+            <form action="" class="loginDetails">
+                <input type="Username" class="loginID" placeholder="USER">
+                <input type="password" class="loginPass" placeholder="PIN">
+                <button class="btnLogin">Login</button>
+            </form>
+        </div>
+
+    </div>
+<!--CURRENT BALANCE SECTION-->
+
+<main class="mainSection">
+  <div class="current_balance">
+    <div class="balance">
+        <h1>Current Balance</h1>
+        <p>As of <span class="date">23-03-2023</span> </p>
+    </div>
+    <div class="balance_show">
+        <h1 class="labelBalance">0000</h1>
+    </div>
+  </div>
+
+  <!--Movements-->
+  <div class="app">
+    <div class="movements">
+        <div class="movements_Value deposit">
+            <div class="dateSection">
+                <p>8 deposit</p>
+                <p class="displayDate">2023-03-12</p>
+            </div>
+            <div class="deposit_Value">
+                <p>4000</p>
+            </div>
+        </div>
+        <div class="movements_Value withdrawl ">
+            <div class="dateSection">
+                <p>8 deposit</p>
+                <p class="displayDate">2023-03-12</p>
+            </div>
+            <div class="deposit_Value">
+                <p>4000</p>
+            </div>
+        </div>
+       
+       
+    </div>
+
+    <!--Transfer , loan , Account Delete section-->
+    <div class="money_section">
+        
+            <div class="transfer">
+                    <h1 >Transfer Money</h1>
+                <form action="form form--transfer">
+                    
+                    <input type="text" class="form__input form__input--to" placeholder="Transfer to">
+                    
+                    <input type="number" class="form__input form__input--amount" placeholder="Amount">
+                    <button class="form__btn form__btn--transfer">Check</button><br>
+                </form> 
+            </div>
+
+            <!--LOAN SECTION-->
+            <div class="transfer backgroundGreen">
+                <h1>Request Loan </h1>
+            <form action="form form--transfer">
+                <input type="number" class="form__input form__input--loanAmount" placeholder="Amount">
+                <button class="form__btn form__btn--loanTransfer">Check</button>
+
+            </form> 
+        </div>
+        <!--Close Acount-->
+        <div class="transfer backgroundRed">
+            <h1>Close Account</h1>
+        <form action="form form--transfer">
+            <input type="text" class="form__input user" placeholder="Confirm User">
+            <input type="number" class="form__input userPin" placeholder="Confirm Pin">
+            <button class="form__btn form__btn--transferDelete">Check</button>
+        </form> 
+    </div>
+
+    </div>
+  </div>
+
+  <!--Summary -->
+  <div class="summary">
+    <div class="summaryFirst">
+        <div class="balanceIn"> 
+             <p>in</p>
+            <h1 class="labelSumIn">RS 2024</h1>
+        </div>
+        <div class="balanceOut">
+        <p>out</p>
+        <h1 class="labelSumOut"> RS 1280</h1>
+    </div>
+    <div class="balanceIn">
+        <p>Interest</p>
+        <h1 class="labelInterest">00</h1>
+    </div>
+    <div>
+        <button class="btn--sort">&downarrow; SORT</button>
+        
+    </div>
+    </div>
+    
+   <div class="showTimer" >You will be logged out in &emsp;<span class="summarySecond"> 05:00</span> </div>
+    
+  </div>
+
+</main>
+
+    
+   <script src="style.js"></script>
+</body>
+</html>
